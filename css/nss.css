@@ -1,0 +1,119 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    background: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+} */
+/* .body{
+    background-color: beige;
+} */
+#center .brand-form {
+    display:flex; 
+    flex-direction: row;
+}
+
+form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    /* width: 25%; */
+    max-width: 600%;
+    border-radius: 10px;
+    opacity: 0.9;
+    /* margin: 100vh 8px 100vh 920px; */
+
+}
+form h3{
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;  
+}
+
+form input, form textarea{
+border: 0;
+margin: 5px 0;
+padding: 10px;
+outline: none;
+background: #f5f5f5;
+font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background:#ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 2px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+#center .mobile-showcase {
+    display: none;
+}
+
+#toWhatsapp{
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+@media screen and (max-width : 767px){ 
+    #center img{
+        height: 250px;
+        width: 100%;
+        /* background-position: left; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* padding-top:200px;
+        padding-bottom:200px; */
+        /* background-attachment:fixed; */
+    }
+
+    #center .mobile-showcase {
+        display: block;
+    }
+
+    #center {
+        margin-bottom: 250px;
+    }
+
+
+    #center .mobile-showcase {
+        /* display: none; */
+        align-content: center;
+        text-align: center;
+        
+    }
+
+    #center .mobile-showcase i{
+        color: red;
+        
+    }
+
+    #center .mobile-showcase a{
+        color: black;
+        
+    }
+    #center .center_inner{
+        display: none;
+    }
+
+    
+}
